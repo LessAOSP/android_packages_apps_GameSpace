@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.preference;
+package com.elixir.settings.preference;
 
 import android.content.Context;
 import android.provider.Settings;
@@ -22,7 +22,7 @@ import android.util.AttributeSet;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 
-import com.evolution.settings.preference.SystemSettingsStore;
+import com.elixir.settings.preference.SystemSettingsStore;
 
 public class SystemSettingMainSwitchPreference extends MainSwitchPreference {
 

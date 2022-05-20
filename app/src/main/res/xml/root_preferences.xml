@@ -65,7 +65,7 @@
             android:summary="@string/stay_awake_summary"
             android:title="@string/stay_awake_title" />
 
-        <com.evolution.settings.preference.CustomSeekBarPreference
+        <com.elixir.settings.preference.CustomSeekBarPreference
             android:key="gamespace_menu_opacity"
             android:title="@string/gamespace_menu_opacity_title"
             android:defaultValue="75"
