@@ -74,7 +74,9 @@ class GameSession @Inject constructor(
         if (appSettings.noAdbEnabled) {
             systemSettings.adbEnabled = false
         }
-        audioManager.ringerModeInternal = appSettings.ringerMode
+        if (appSettings.ringerMode < 3) {
+            audioManager.ringerModeInternal = appSettings.ringerMode
+        }
     }
 
     fun unregister() {
